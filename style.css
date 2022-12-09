@@ -1,0 +1,680 @@
+body {
+    background: url("./F1赛车/bodybg.gif");
+}
+
+/* 整个容器 */
+.main {
+    position: absolute;
+    margin-left: -495px;
+    left: 50%;
+    width: 990px;
+    height: 1785px;
+    background: rgb(53, 53, 53);
+}
+
+/* 主菜单 */
+.menu {
+    margin-top: 78px;
+    width: 100%;
+    height: 36px;
+    line-height: 36px
+}
+
+/* 主菜单中的单个菜单 */
+.menu>div {
+    float: left;
+    text-align: center;
+    width: fit-content;
+    padding-left: 2.6%;
+    color: white;
+}
+
+/* 商城菜单 */
+.shop {
+    display: inline-block;
+}
+
+/* 商城菜单的二级菜单 */
+.shop-content {
+    /* 初始为隐藏 */
+    display: none;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgb(53, 53, 53);
+    text-align: center;
+}
+
+/* 当鼠标移动到商城菜单上时, 二级菜单显现 */
+.shop:hover .shop-content {
+    display: block;
+}
+
+/* 左侧容器 */
+.left {
+    float: left;
+    width: 434px;
+    height: 1315px;
+    background: white;
+    margin-left: 5px;
+}
+
+/* 头图盒子 */
+.head-img {
+    width: 423px;
+    height: 233px;
+    position: relative;
+}
+
+/* 头图 */
+#img img {
+    /*将撑开盒子的图设为全透明*/
+    opacity: 0;
+}
+
+/* 切换头图的按钮 */
+.head-img div div {
+    position: absolute;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    width: 30px;
+    height: 30px;
+    bottom: -4px;
+}
+
+/* 图1按钮 */
+#btn1 {
+    opacity: 0.7;
+    right: 29px;
+}
+
+/* 图2按钮 */
+#btn2 {
+    opacity: 0.7;
+    right: -1px;
+}
+
+
+.left div {
+    margin: 10px;
+}
+
+.left div #title {
+    font-size: larger;
+    margin-left: 35px;
+}
+
+
+.left div p {
+    font-size: small;
+    margin: 10px;
+}
+
+/* 定义标题格式 */
+.title {
+    position: relative;
+}
+
+.title img {
+    margin: -6px;
+}
+
+.title b {
+    position: absolute;
+    top: 1px;
+    font-size: small;
+    left: 5%;
+    color: white;
+}
+
+.content-text>a {
+    margin: 10px;
+    color: saddlebrown;
+    height: 10px;
+    font-size: small;
+    font-weight: 600;
+}
+
+.content-text>a:hover {
+    text-decoration: underline;
+}
+
+.content-text>p {
+    text-indent: 2em;
+}
+
+.content-text>p:hover {
+    text-decoration: underline;
+}
+
+
+#hello-content {
+    width: 100%;
+    height: 440px;
+    margin: 0;
+    border: 0;
+}
+
+.content div {
+    float: left;
+    margin: 0;
+    border-bottom: 1px dashed black;
+}
+
+#hello-content div img {
+    float: left;
+    height: 80px;
+    width: 125px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 0;
+}
+
+#hello-content div div {
+    float: right;
+    font-size: small;
+    height: 100px;
+    width: 280px;
+    margin: 5px;
+    border: 0;
+}
+
+#flycar-content {
+    width: 100%;
+    height: 220px;
+    margin: 0;
+    border: 0;
+}
+
+#flycar-content div {
+    width: 426px;
+    height: 110.8px;
+}
+
+#flycar-content div .content-text {
+    float: right;
+    font-size: small;
+    height: 100px;
+    width: 280px;
+    margin: 5px;
+    border: 0;
+}
+
+#flycar-content div #boy {
+    height: 80px;
+    width: 80px;
+    margin-left: 40px;
+    margin-top: 40px;
+    border: 0;
+}
+
+#flycar-content div #left {
+    height: 80px;
+    width: 80px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 0;
+}
+
+#flycar-content div #left p {
+    margin-left: -5px;
+}
+
+#communication {
+    height: 140px;
+    border-bottom: 1px dashed black;
+}
+
+#communication img {
+    float: left;
+    width: 124px;
+    height: 100px;
+    margin: 10px;
+    border: 0;
+}
+
+#communication div {
+    width: 260px;
+}
+
+.middle {
+    float: left;
+    width: 285px;
+    height: 1315px;
+    background: rgb(255, 231, 179);
+}
+
+.right {
+    float: right;
+    width: 255px;
+    height: 1471px;
+    margin-right: 5px;
+}
+
+.images {
+    float: left;
+    width: 693px;
+    height: 235px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.links {
+    float: left;
+    width: 960px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 5px;
+    padding-top: 18px;
+    padding-left: 10px;
+    background: rgb(92, 92, 92);
+    color: rgb(172, 172, 172)
+}
+
+.copyright {
+    float: left;
+    width: 980px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    margin: auto;
+    color: rgb(92, 92, 92);
+}
+
+.middle div {
+    margin: 10px;
+}
+
+/* 首行缩进 */
+.middle div #text {
+    text-indent: 2em;
+}
+
+.middle div p {
+    font-size: small;
+    margin: 10px;
+}
+
+/* 中间标题的格式 */
+
+#news-content {
+    width: 100%;
+    height: 410px;
+    margin: 0;
+    border: 0;
+}
+
+#news-content>div>a {
+    color: saddlebrown;
+    margin-top: 0;
+    height: 10px;
+    font-size: small;
+    left: 5%;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#news-content>div>a:hover {
+    text-decoration: underline;
+}
+
+#news-content>div>p {
+    text-indent: 2em;
+}
+
+#news-content>div>p:hover {
+    text-decoration: underline;
+}
+
+/* 中间盒子所有段落的设置 */
+
+#news-content>div {
+    width: 100%;
+    height: 65px;
+    float: left;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+#news-content .newscontent {
+    width: 100%;
+    height: 20px;
+    margin: 0px;
+    text-align: center;
+}
+
+.newscontent>a {
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.newscontent>a:hover {
+    text-decoration: underline;
+}
+
+#newsp {
+    color: darkolivegreen;
+}
+
+#newstext {
+    color: black;
+}
+
+
+.left .text a {
+    color: rgb(255, 115, 0);
+    height: 10px;
+    font-size: small;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+.left .text a:hover {
+    text-decoration: underline;
+}
+
+
+.left .text span:hover {
+    text-decoration: underline;
+}
+
+
+/* F1视频 */
+#video-content {
+    width: 100%;
+    height: 750px;
+    margin: 0;
+    border: 0;
+
+}
+
+#video-content div .video {
+    width: 100%;
+    height: 130px;
+    clear: both;
+}
+
+/* 一行分为两块 */
+#video-content div .video #one {
+    float: left;
+    height: 130px;
+    width: 47%;
+
+    border: 0;
+    margin: 2px;
+
+}
+
+#video-content div .video #one img {
+    height: 70px;
+    width: 100%;
+}
+
+#video-content div .video #one a {
+    color: rgb(255, 115, 0);
+    height: 50px;
+    font-size: small;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#video-content div .video #one a:hover {
+    text-decoration: underline;
+}
+
+#video-content div .video #two {
+    float: right;
+    height: 130px;
+    width: 47%;
+
+    border: 0;
+    margin: 2px;
+}
+
+#video-content div .video #two img {
+    height: 70px;
+    width: 100%;
+}
+
+#video-content div .video #two a {
+    color: rgb(255, 115, 0);
+    height: 50px;
+    font-size: small;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#video-content div .video #two a:hover {
+    text-decoration: underline;
+}
+
+#video-content #a {
+    text-align: right;
+}
+
+#video-content #a a {
+    color: green;
+
+    text-decoration: none;
+    font-size: small;
+    font-weight: 500;
+}
+
+#video-content #a a:hover {
+    text-decoration: underline;
+}
+
+/* 右侧灰色盒子 */
+#righttop {
+    background: dimgray;
+    width: 100%;
+    height: 400px;
+    clear: none;
+}
+
+/* 图片格式 */
+#righttop img {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+/* 大赛报时 */
+#righttop #time {
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+#righttop #time p {
+    color: white;
+    font-size: small;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 1px;
+}
+
+/* 定义滑动文本框 */
+#messagetext {
+    width: 100%;
+    height: 200px;
+    background: black;
+    overflow-x: hidden;
+}
+
+/* 定义每个人发言的盒子 */
+#person {
+    width: 95%;
+    margin: 5px;
+    padding: 5px;
+    clear: both;
+    line-height: 15px;
+}
+
+/* 定义左侧图片 */
+#person #leftimg {
+    width: 20%;
+    float: left;
+    display: inline;
+}
+
+#person #leftimg img {
+    width: 60px;
+    height: 60px;
+}
+
+/* 定义右侧文字 */
+#person #message {
+    width: 70%;
+    float: right;
+    display: inline;
+    border-bottom: 1px solid darkgrey;
+}
+
+#person #message a {
+    color: rgb(255, 115, 0);
+    height: 50px;
+    font-size: small;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+#person #message a:hover {
+    text-decoration: underline;
+}
+
+#person #message p {
+    text-indent: 2em;
+    color: white;
+    font-size: small;
+}
+
+#person #message #reply a {
+    color: rgb(255, 115, 0);
+    height: 50px;
+    font-size: small;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#person #message #reply a:hover {
+    text-decoration: underline;
+    color: gold;
+}
+
+#person #message img {
+    width: 125px;
+    height: 60px;
+}
+
+
+
+input[type="radio"],
+.rank {
+    position: absolute;
+    display: none;
+    background: dimgrey;
+}
+
+.rank>div>p {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-size: small;
+    text-indent: 1em;
+
+}
+
+input:checked+label+.rank {
+    display: block;
+}
+
+input:checked+label {
+    background-color: dimgrey;
+}
+
+label {
+    color: white;
+    font-size: small;
+    line-height: 25px;
+}
+
+.alltext {
+    width: 100%;
+}
+
+#course {
+    height: 450px;
+    color: rgb(255, 225, 179);
+}
+
+#integral {
+    height: 200px;
+}
+
+
+#integral>div {
+    color: white;
+}
+
+
+
+
+/* 定义通用列表盒子 */
+#alltext>div>div {
+    font-size: small;
+    width: 100%;
+    margin: 0;
+    text-indent: 1em;
+}
+
+.firstcolumn {
+    background: dimgrey;
+
+}
+
+.secondcolumn {
+    background: rgba(169, 169, 169, 0.584);
+
+}
+
+
+
+
+#titlefirst {
+    width: 100%;
+    color: black;
+    background: rgba(220, 220, 220, 0.79);
+    margin: 0;
+    font-size: small;
+    text-indent: 2em;
+    font-weight: 700;
+}
+
+#button {
+    background: darkgrey;
+}
+
+#button img {
+    width: 40px;
+    height: 20px;
+    float: right;
+    margin-left: 5px;
+}
+
+#newcarimg {
+    background: dimgrey;
+    color: rgb(188, 188, 188);
+    text-align: left;
+    text-decoration: none;
+}
+
+
+
+#newcarimg ul li a:hover {
+    text-decoration: underline;
+}
